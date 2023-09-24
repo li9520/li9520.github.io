@@ -1,1 +1,1 @@
-#Тестовое задание для курса Web Development от gigaschool
+# Тестовое задание для курса Web Development от gigaschool
