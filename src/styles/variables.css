@@ -1,0 +1,12 @@
+:root {
+  --maxWidth-container: 1400px;
+  --padding-container: 20px;
+  --header-height: 60px;
+  --bgColor: #fff;
+  --textColor: #2a2626;
+
+  --black: #000;
+  --white: #fff;
+  --light-gray: #e6e6e6;
+  --grey: #cccccc;
+}

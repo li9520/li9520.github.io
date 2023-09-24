@@ -1,0 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import './common.css';
+@import './components/header.css';
+@import './variables.css';
+@import './components/info.css';
+@import './components/aboutMe.css';
+@import './components/education.css';
+@import './components/myProjects.css';
+@import './components/footer.css';

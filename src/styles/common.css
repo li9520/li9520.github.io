@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: var(--textColor);
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6em;
+  position: relative;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+h1{
+  font-size: 72px;
+  line-height: 1.2em;
+  animation: title 2s 1;
+  background: var(--bgColor);
+}
+
+h2{
+  font-size: 42px;
+  line-height: 1.2em;
+}
+
+
+h3{
+  font-size: 24px;
+  line-height: 1.2em;
+}
+
+section {
+  scroll-margin-top: var(--header-height);
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrapper {
+  max-width: var(--maxWidth-container);
+  padding: 0 var(--padding-container);
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.hidden-text {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.4s;
+}
+
+.hidden-text.active {
+  max-height: 1000px;
+  transition: all 4s;
+}
+
+.toggle-Button{
+  border: 1px solid var(--black); 
+  padding: 15px 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.toggle-Button:hover {
+  background-color: var(--black);
+  color: var(--white)
+}
+
+@media screen and (max-width: 1024px) {
+  h1{
+    font-size: 48px;
+  }
+  h2{
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 0 10px;
+
+  }
+}
